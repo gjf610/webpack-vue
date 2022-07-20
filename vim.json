@@ -1,0 +1,231 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "workbench.sideBar.location": "right",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "git.enabled": true,
+  "git.path": "F:\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
+  "terminal.integrated.shell.windows": "F:\\cmder\\vendor\\git-for-windows\\bin\\bash.exe",
+  "terminal.integrated.tabs.enabled": true,
+  "settingsSync.ignoredExtensions": [],
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "cSpell.userWords": [
+    "composables",
+    "vite",
+    "vitejs",
+    "vitepress",
+    "Vitest",
+    "zioui"
+  ],
+  "vim.useCtrlKeys": true,
+  "vim.sneak": true,
+  "vim.easymotion": true,
+  "vim.leader": "<Space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-f>": false,
+    "<C-v>": true,
+    "<C-w>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<Leader>",
+        "d",
+        "f"
+      ],
+      "after": [
+        "V",
+        "$",
+        "%",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "g",
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "g",
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "a",
+        "i"
+      ],
+      "after": [
+        "a",
+        "I"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "g",
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "a",
+        "i"
+      ],
+      "after": [
+        "a",
+        "I"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "F"
+      ],
+      "after": [
+        "S"
+      ]
+    },
+    {
+      "before": [
+        "s"
+      ],
+      "after": [
+        "c",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "S"
+      ],
+      "after": [
+        "^",
+        "C"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "s"
+      ]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "F"
+      ],
+      "after": [
+        "Z"
+      ]
+    }
+  ]
+}
